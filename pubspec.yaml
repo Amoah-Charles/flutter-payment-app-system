@@ -1,0 +1,20 @@
+name: payment_app
+description: A payment app example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.24.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.2
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Black and Blue Initials Creative Logo 2.png  # Replace with the actual name of your logo file
+    - assets/images/background.jpg  # For your background image
